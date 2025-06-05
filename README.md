@@ -11,8 +11,12 @@ This Node.js project provides APIs to upload a ZIP file, extract its contents, o
 - 📦 Download all `.ditamap` files as a ZIP
 - 🧹 Auto-clean folders after download
 - 🔧 Clean and modular structure
-
+- 📝  Add `chunk="to-content"` to each <topicref>
 ---
+
+ ## **Automatic Attribute Injection** 
+  Each `<topicref>` tag inside `.ditamap` files is checked. If it doesn't have a `chunk` attribute, it adds:  
+  `chunk="to-content"` 
 
 ## 📁 Folder Structure
 ```
