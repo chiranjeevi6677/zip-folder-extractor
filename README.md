@@ -15,7 +15,7 @@ This Node.js project provides APIs to upload a ZIP file, extract its contents, o
 ---
 
 ## 📁 Folder Structure
-
+```
 file-extract-api/
 ├── controllers/ # API logic
 │ └── fileController.js
@@ -28,3 +28,4 @@ file-extract-api/
 ├── temp/ # Stores temporary ZIP files for download
 ├── app.js # Express server entry point
 └── README.md
+```
